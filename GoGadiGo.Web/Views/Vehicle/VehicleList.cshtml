@@ -1,0 +1,68 @@
+﻿@section css{
+    <style>
+        body {
+            background: #eee;
+        }
+
+        span {
+            font-size: 15px;
+        }
+
+        .box-part {
+            background: #FFF;
+            border-radius: 0;
+            padding: 40px 10px;
+            margin: 5px 0px;
+        }
+    </style>
+ } 
+<div class="service-page-style">
+    <!-- filter and vehicle list  area start -->
+    <div class="hx-contact-area-s2 section-padding">
+        <div class="box">
+            <div class="container">
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="inputState">District/जिला</label>
+                        <select id="inputDistrict" class="form-control" onchange="loadBlocks()">
+                            <option selected disabled>Select District/जिला चुने</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputState">Block/प्रखंड</label>
+                        <select id="inputBlock" class="form-control">
+                            <option selected disabled>Select Block/प्रखंड चुने</option>
+                          
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputState">Vehicle Type/वाहन का प्रकार</label>
+                        <select id="inputVehicleType" class="form-control">
+                            <option selected disabled>Select Type/गाड़ी चुने</option>
+                           
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-3">
+                      
+                        <center><input type="button" onclick="loadSearchVehiclesList()" class="btn btn-success" value="Click Here To Search" style="margin-top:10%;"></center>
+                    </div>
+                </div>
+                <!--to be bind vehicle list after load-->
+                <div id="vehicleList">
+                   
+                </div>
+
+              
+               
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--External js file-->
+<script src="~/customJs/vehicle-list.js"></script>
+
+

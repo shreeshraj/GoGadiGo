@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoGadiGo.Web", "GoGadiGo.Web\GoGadiGo.Web.csproj", "{6324E6EE-64E0-4830-A7D9-28EBE185F658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A6C58937-9E1D-4B9D-A573-3ED2B1AAB55F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo", "Repo", "{243A84D6-8E3D-4C71-B4B4-C71C2D727430}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoGadiGo.Data", "GoGadiGo.Data\GoGadiGo.Data.csproj", "{70DAF172-5B28-4833-80FC-5A7033E39911}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoGadiGo.Repo", "GoGadiGo.Repo\GoGadiGo.Repo.csproj", "{B888BF64-0E35-44EA-9BB3-020C751C89B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonService", "CommonService", "{815B3DB6-FBAF-4397-95D5-94C1834FC2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGadiGo.Common", "GoGadiGo.Common\GoGadiGo.Common.csproj", "{5D3A65A4-BE42-45D8-A680-A0C3469B2004}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6324E6EE-64E0-4830-A7D9-28EBE185F658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6324E6EE-64E0-4830-A7D9-28EBE185F658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6324E6EE-64E0-4830-A7D9-28EBE185F658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6324E6EE-64E0-4830-A7D9-28EBE185F658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DAF172-5B28-4833-80FC-5A7033E39911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DAF172-5B28-4833-80FC-5A7033E39911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DAF172-5B28-4833-80FC-5A7033E39911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DAF172-5B28-4833-80FC-5A7033E39911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B888BF64-0E35-44EA-9BB3-020C751C89B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B888BF64-0E35-44EA-9BB3-020C751C89B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B888BF64-0E35-44EA-9BB3-020C751C89B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B888BF64-0E35-44EA-9BB3-020C751C89B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3A65A4-BE42-45D8-A680-A0C3469B2004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3A65A4-BE42-45D8-A680-A0C3469B2004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3A65A4-BE42-45D8-A680-A0C3469B2004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3A65A4-BE42-45D8-A680-A0C3469B2004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70DAF172-5B28-4833-80FC-5A7033E39911} = {A6C58937-9E1D-4B9D-A573-3ED2B1AAB55F}
+		{B888BF64-0E35-44EA-9BB3-020C751C89B4} = {243A84D6-8E3D-4C71-B4B4-C71C2D727430}
+		{5D3A65A4-BE42-45D8-A680-A0C3469B2004} = {815B3DB6-FBAF-4397-95D5-94C1834FC2F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EF9FF50-A8A1-4CE8-978F-343BDE6D70D0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+﻿
+<div class="service-page-style">
+    <!-- signup  area start -->
+    <div class="hx-contact-area-s2 section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col col-md-6 col-sm-12 col-12">
+                    <div class="hx-contact-content">
+                        <h2>Sign Up/साइन अप करें</h2>
+                        <div class="form-group">
+                            <label for="lblMobileNo">Mobile Number/मोबाइल नंबर</label>
+                            <input type="text" name="name" id="txtMobileNo" class="form-control" placeholder="--Enter Mobile Number--">
+                        </div>
+                        <div class="form-group">
+                            <label for="lblPassword">Enter Password/पासवर्ड डाले</label>
+                            <input type="password" name="name" id="txtPassword" class="form-control" placeholder="--Enter Password--">
+                        </div>
+                        <div class="form-group" id="password">
+                            <label for="lblRePassword">Confirm Password/पुनः पासवर्ड डाले</label>
+                            <input type="password" name="name" id="txtConfirmPassword" class="form-control" placeholder="--Enter Confirm Password--">
+                        </div>
+
+
+                        <input type="button" class="btn btn-primary" onclick="userRegistration()" value="Sign Up" id="btnSignUp">
+                        <center><a asp-action="Login" asp-controller="Account">Existing User?/पहले से यूजर है तो यहाँ लॉगिन करे</a></center>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- signup  area ends -->
+</div>
+
+<!--external js file -->
+@section Scripts{
+<script src="~/customJs/Account-SignUp.js"></script>
+}
+    

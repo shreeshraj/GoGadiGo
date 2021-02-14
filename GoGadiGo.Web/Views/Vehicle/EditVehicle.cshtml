@@ -1,0 +1,156 @@
+﻿
+@{
+    ViewData["Title"] = "Vehicle Registration";
+}
+<div class="container bootstrap snippets bootdey container">
+    <div class="row" style="margin-top:100px;">
+        <div class="tab-pane" id="editProfile">
+            <div class="col-lg-12">
+                <div class="container bootstrap snippets bootdeys">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                            <form class="form-horizontal">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">Owner info/मालिक का विवरण</h4>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Owner name/मालिक का नाम</label>
+                                            <div class="col-sm-10">
+                                                <input type="tel" class="form-control" placeholder="गाड़ी मालिक का नाम डाले" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Owner Mobile number/मोबाइल नंबर</label>
+                                            <div class="col-sm-10">
+                                                <input type="tel" class="form-control" placeholder="गाड़ी मालिक का मोबाइल नंबर डाले" required>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">Vehicle info/गाड़ी का विवरण </h4>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Vehicle Type/गाड़ी का प्रकार</label>
+                                            <div class="col-sm-10">
+                                                <select class="form-control" id="exampleFormControlSelect1" required>
+                                                    <option value="" disabled selected>गाड़ी का प्रकार चुने</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Vehicle number/गाड़ी का नंबर</label>
+                                            <div class="col-sm-10">
+                                                <input type="tel" class="form-control" placeholder="BR10H-8082ऐसे गाड़ी नंबर डाले" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">District/गाड़ी का जिला</label>
+                                            <div class="col-sm-10">
+
+                                                <select class="form-control" id="exampleFormControlSelect1" required>
+                                                    <option value="" disabled selected>वो जिला चुने जिसमे आपकी गाड़ी चलती हो</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Block/गाड़ी का प्रखंड</label>
+                                            <div class="col-sm-10">
+                                                <select class="form-control" id="exampleFormControlSelect1" required>
+                                                    <option value="" disabled selected>वो प्रखंड चुने जिसमे आपकी गाड़ी चलती हो</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Vehicle Address/गाड़ी का सही पता</label>
+                                            <div class="col-sm-10">
+                                                <textarea rows="3" class="form-control" placeholder="गाड़ी का पूरा पता डाले"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">Contact Info/सम्पर्क सूत्र</h4>
+                                    </div>
+                                    <div class="panel-body">
+
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Alternate Mobile No/अन्य मोबाइल नंबर</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" placeholder="मालिक या ड्राइवर का दूसरा नंबर डाले">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">Vehicle Images/गाड़ी का फोटो</h4>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label"></label>
+                                            <div class="col-sm-10">
+                                                <label class="form-label" for="customFile">Upload Vechicle Photo/गाड़ी का फोटो डाले</label>
+                                                <input type="file" class="custom-file-input" id="customFile" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Do you have a driving license?/आपके पास ड्राइविंग लाइसेंस है?</label>
+                                            <div class="col-sm-10">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" required unchecked>
+                                                    <label class="form-check-label" for="flexCheckChecked">
+                                                        Yes/हाँ
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="col-sm-10 col-sm-offset-2">
+                                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                                    <button type="reset" class="btn btn-default">Cancel</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+</div>
+
+

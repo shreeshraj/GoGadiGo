@@ -1,0 +1,41 @@
+﻿<!--Login design starts-->
+<div class="service-page-style">
+    <!-- .contact area start -->
+    <div class="hx-contact-area-s2 section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col col-md-6 col-sm-12 col-12">
+                    <div class="hx-contact-content">
+                        <h2>Sign in/साइन इन करें</h2>
+                        <div class="form-group">
+                            <label for="lblUsername">Mobile Number/मोबाइल नंबर</label>
+                            <input type="text" name="name" id="txtMobileNo" class="form-control" placeholder="--Enter Mobile Number--">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Password/पासवर्ड</label>
+                            <input type="password" name="name" id="txtPassword" class="form-control" placeholder="--Enter Password--">
+                        </div>
+                        <input type="button" class="btn btn-primary" value="Login" onclick="userLogin()" />
+                        <center><a asp-action="SignUp" asp-controller="Account">New User?/नए यूजर बने </a></center>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .contact area start -->
+
+</div>
+
+<!--Login design ends-->
+
+<!--external js file -->
+
+@section Scripts{
+    <script src="~/customJs/Account-Login.js"></script>
+}

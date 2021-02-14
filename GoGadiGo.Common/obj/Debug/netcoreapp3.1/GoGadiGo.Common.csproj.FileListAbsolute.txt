@@ -1,0 +1,9 @@
+C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\bin\Debug\netcoreapp3.1\GoGadiGo.Common.deps.json
+C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\bin\Debug\netcoreapp3.1\GoGadiGo.Common.dll
+C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\bin\Debug\netcoreapp3.1\GoGadiGo.Common.pdb
+C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.csprojAssemblyReference.cache
+C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.AssemblyInfoInputs.cache
+C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.AssemblyInfo.cs
+C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.csproj.CoreCompileInputs.cache
+C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.dll
+C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.pdb

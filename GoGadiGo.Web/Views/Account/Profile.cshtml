@@ -1,0 +1,194 @@
+﻿
+@{
+    ViewData["Title"] = "User Profile";
+}
+@section css {
+    <link href="~/css/CustomCss/profile-design.css" rel="stylesheet" />
+}
+<div class="container bootstrap snippets bootdey container">
+    <div class="row">
+        <div class="profile-nav col-md-3">
+            <div class="panel">
+                <div class="user-heading round">
+                    <a href="#">
+                        <img id="userprofile"  alt="">
+                    </a>
+                    <h1 id="username"></h1>
+                    <p id="email"></p>
+                </div>
+
+                <ul class="nav nav-pills nav-stacked">
+                    <li ><a data-toggle="tab" href="#userProfile"> <i class="fa fa-user"></i> Profile/प्रोफ़ाइल</a></li>
+                    <li><a data-toggle="tab" href="#activityList"> <i class="fa fa-calendar"></i> Recent Activity/अपना नवीनतम पोस्ट देखे</a></li>
+                    <li class="active"><a data-toggle="tab" href="#editProfile"> <i class="fa fa-edit"></i> Edit/Complete profile/प्रोफाइल बदले या पूरा करे</a></li>
+                    <li><a data-toggle="tab" href="#changepassword"> <i class="fa fa-edit"></i>Change Password/पासवर्ड बदले</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="profile-info tab-content">
+            <!--Recent Activities strats-->
+            <div class="tab-pane fade " id="activityList">
+
+                <div class="col-lg-9" id="activity">
+                    <!-- List group-->
+                    
+                </div>
+
+            </div>
+            <!--Recent Activities ends-->
+            <!--User profile starts-->
+            <div class="tab-pane fade" id="userProfile">
+                <div class="col-lg-9">
+                    <div class="panel">
+                        <div class="panel-body bio-graph-info">
+                            <h1>Personal Info/व्यक्तिगत विवरण</h1>
+
+
+                            <div class="row">
+
+                                <div class="col-md-6 col-sm-12">
+                                    <p><span>First Name/फर्स्ट नाम</span>: <span id="firstname"></span></p>
+                                    <p><span>District/जिला</span>: 13 July 1983</p>
+
+
+                                    <p><span>Mobile number/मोबाइल नंबर</span>:<span id="mobile"></span></p>
+                                    <p><span>Address/पता</span>: <span id="address"></span></p>
+                                </div>
+
+                                <div class="col-md-6 col-sm-12">
+                                    <p><span>Last Name/लास्ट नाम</span>: <span id="lastname"></span></p>
+                                    <p><span>Block/प्रखंड</span>: UI Designer</p>
+                                    <p><span>Email/ईमेल</span>: <span id="email"></span></p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--user profile ends-->
+            <!--Edit profile design starts-->
+            <div class="tab-pane fade in active" id="editProfile">
+
+                <div class="col-lg-9">
+                    <div class="container bootstrap snippets bootdeys">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-9">
+                                <form class="form-horizontal" id="profileForm" enctype="multipart/form-data">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">Change Contact Info/संपर्क विवरण बदलें</h4>
+                                        </div>
+                                        <div class="panel-body">
+
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">First Name/फर्स्ट नाम</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" id="txtFirstname" required class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">Last Name/लास्ट नाम</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" id="txtLastname" required class="form-control">
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">Address/पता</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" id="txtAddress" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">Mobile number/मोबाइल नंबर</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" id="txtMobileNo" required class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">Email/ईमेल</label>
+                                                <div class="col-sm-10">
+                                                    <input type="email" id="txtEmail" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">Upload your picture/अपनी तस्वीर अपलोड करें</label>
+                                                <div class="col-sm-10">
+                                                    <input type="file" class="custom-file-input" name="userProfileFile" id="userProfileFile" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-10">
+                                                    <center>   <img id="blah" class="img img-responsive" style="height:150px;width:150px;" src="~/customerpic/avatar.jpg"  /></center>
+                                                </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-sm-10 col-sm-offset-2">
+                                                        <input type="button" id="btnSubmit" onclick="updateUserProfile()" class="btn btn-primary" value="Submit">
+                                                        <button type="reset" class="btn btn-default">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--edit profile design ends-->
+            <!--Edit password design starts-->
+            <div class="tab-pane fade" id="changepassword">
+
+                <div class="col-lg-9">
+                    <div class="container bootstrap snippets bootdeys">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-9">
+                                <form class="form-horizontal">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">Change Password/पासवर्ड बदलें</h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">New password/नया पासवर्ड डाले</label>
+                                                <div class="col-sm-10">
+                                                    <input type="password" id="txtNewPassword" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">Re-New password/पुनः नया पासवर्ड डाले</label>
+                                                <div class="col-sm-10">
+                                                    <input type="password"  id="txtReNewPassword" class="form-control">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="col-sm-10 col-sm-offset-2">
+                                                    <input type="button" class="btn btn-primary" onclick="changePassword()" value="Submit">
+                                                    <button type="reset" class="btn btn-default">Cancel</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--edit Password design ends-->
+        </div>
+    </div>
+    
+</div>
+@section Scripts{
+    <script src="~/customJs/User-Profile.js"></script>
+}
+
+
