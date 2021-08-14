@@ -14,9 +14,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoGadiGo.Repo", "GoGadiGo.Repo\GoGadiGo.Repo.csproj", "{B888BF64-0E35-44EA-9BB3-020C751C89B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonService", "CommonService", "{815B3DB6-FBAF-4397-95D5-94C1834FC2F9}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\Downloads\demo.sql = ..\..\..\..\..\Downloads\demo.sql
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoGadiGo.Common", "GoGadiGo.Common\GoGadiGo.Common.csproj", "{5D3A65A4-BE42-45D8-A680-A0C3469B2004}"
 EndProject
