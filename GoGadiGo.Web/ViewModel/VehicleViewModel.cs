@@ -8,6 +8,7 @@ namespace GoGadiGo.Web.ViewModel
 {
     public class VehicleViewModel
     {
+        public int VehicleId { get; set; }
         public string Ownername { get; set; }
         public string VehicleContactNumber { get; set; }
        

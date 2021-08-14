@@ -19,8 +19,6 @@ function readURL(input) {
     }
 }
 
-
-
 function updateUserProfile()
 {
     var firstname = $.trim($("#txtFirstname").val());
@@ -54,7 +52,7 @@ function updateUserProfile()
 
                     setTimeout(function () {
                         window.location.href = res.targetUrl;
-                    },10000);
+                    },1000);
                     
                 }
                 
@@ -76,7 +74,6 @@ function updateUserProfile()
 
 }
 
-
 function loadUserProfile()
 {
 
@@ -90,7 +87,7 @@ function loadUserProfile()
             $("#lastname").html(res.lastName);
             $("#txtAddress").val(res.address);
             $("#address").html(res.address);
-            $("#email").html(res.email);
+            $("#emailid").html(res.email);
             $("#txtEmail").val(res.email);
             $("#txtMobileNo").val(res.mobileNumber);
             $("#mobile").html(res.mobileNumber);
@@ -103,7 +100,6 @@ function loadUserProfile()
     });
 
 }
-
 
 function validateInputs(firstname, lastname, mobile, address) {
 
@@ -146,7 +142,7 @@ function changePassword()
         });
     }
     else {
-        alert("");
+        console.log("else blog");
     }
 
 
@@ -160,6 +156,7 @@ function loadUserActivity() {
         {
             if (res.length > 0) {
                 $.each(res, function (index, value) {
+                    console.log(value);
                     var string = '<ul class="list-group shadow"><li class="list-group-item">' +
                         '<div class="media align-items-lg-center flex-column flex-lg-row p-3">' +
                         '<div class="media-body order-2 order-lg-1">' +
@@ -177,7 +174,7 @@ function loadUserActivity() {
                         '</div>' +
                         '</div>' +
                         '<img style="width:150px;height:150px;" src="../../customervehiclepic/' + value.vehicleImagePath  + '"  alt="Generic placeholder image" width="200" class="ml-lg-5 order-1 order-lg-2">' +
-                        '<input type="button" class="btn btn-danger" value="Edit" style="float:right;margin-bottom:0px;" />' +
+                        '<input type="button" onclick="editVehicle(' + value.vehicleId + ')"  class="btn btn-danger" value="Edit" style="float:right;margin-bottom:0px;" />' +
                         '</div></li></ul>';
                     $("#activity").append(string);
                 });
@@ -191,4 +188,11 @@ function loadUserActivity() {
 
         }
     });
+}
+
+function editVehicle(id)
+{
+   
+
+   
 }

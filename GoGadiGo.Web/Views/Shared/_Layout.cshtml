@@ -50,7 +50,8 @@
                             <span class="icon-bar"></span>
                         </button>
                        
-                        <a class="navbar-brand" href="index.aspx"><img src="~/images/ggglogo.png" style="height:70px;width:70px;"></a>
+                        <a class="navbar-brand" href="index.aspx"><img src="~/images/ggglogo.png" style="height: 80px;width: 80px;margin-top: -25px;
+"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navigation-holder navbar-right">
                         <button class="close-navbar"><i class="ti-close"></i></button>
@@ -67,7 +68,7 @@
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
                                         <div class="nav-user-info">
-                                            <h5 class="mb-0 text-white nav-user-name">@User.Identity.Name</h5> <span class="status"></span><span class="ml-2">Active</span>
+                                            <h5 class="mb-0 text-white nav-user-name">Hi-<b>@User.Identity.Name</b></h5> <span class="status"></span><span class="ml-2"></span>
                                         </div> <a class="dropdown-item" asp-action="Profile" asp-controller="Account"><i class="fas fa-user mr-2"></i> Profile</a>
                                         <a class="dropdown-item" asp-action="Logout" asp-controller="Account"><i class="fas fa-power-off mr-2"></i> Logout</a>
                                     </div>

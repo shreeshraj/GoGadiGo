@@ -1,8 +1,4 @@
-﻿
-@{
-    ViewData["Title"] = "User Profile";
-}
-@section css {
+﻿@section css {
     <link href="~/css/CustomCss/profile-design.css" rel="stylesheet" />
 }
 <div class="container bootstrap snippets bootdey container">
@@ -47,18 +43,18 @@
                             <div class="row">
 
                                 <div class="col-md-6 col-sm-12">
-                                    <p><span>First Name/फर्स्ट नाम</span>: <span id="firstname"></span></p>
-                                    <p><span>District/जिला</span>: 13 July 1983</p>
+                                    <p><span>First Name/फर्स्ट नाम</span>:- <span id="firstname"></span></p>
+                                    @*<p><span>District/जिला</span>: 13 July 1983</p>*@
 
 
-                                    <p><span>Mobile number/मोबाइल नंबर</span>:<span id="mobile"></span></p>
-                                    <p><span>Address/पता</span>: <span id="address"></span></p>
+                                    <p><span>Mobile number/मोबाइल नंबर</span>:-<span id="mobile"></span></p>
+                                    <p><span>Address/पता</span>:- <span id="address"></span></p>
                                 </div>
 
                                 <div class="col-md-6 col-sm-12">
-                                    <p><span>Last Name/लास्ट नाम</span>: <span id="lastname"></span></p>
-                                    <p><span>Block/प्रखंड</span>: UI Designer</p>
-                                    <p><span>Email/ईमेल</span>: <span id="email"></span></p>
+                                    <p><span>Last Name/लास्ट नाम</span>:- <span id="lastname"></span></p>
+                                    @*<p><span>Block/प्रखंड</span>: UI Designer</p>*@
+                                    <p><span>Email/ईमेल</span>:- <span id="emailid"></span></p>
                                 </div>
 
 
@@ -105,7 +101,7 @@
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">Mobile number/मोबाइल नंबर</label>
                                                 <div class="col-sm-10">
-                                                    <input type="text" id="txtMobileNo" required class="form-control">
+                                                    <input type="text" id="txtMobileNo" maxlength="11" required class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">

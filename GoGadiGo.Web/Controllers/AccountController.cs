@@ -14,7 +14,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-
 namespace GoGadiGo.Web.Controllers
 {
     public class AccountController : Controller
@@ -64,7 +63,7 @@ namespace GoGadiGo.Web.Controllers
 
                 foreach (var result in results)
                 {
-                    vehicleViewModel.Add(new VehicleViewModel() { Ownername = result.VehicleOwnerName, VehicleContactNumber = result.VehicleContactNumber, AlternativeContactNumber = result.AlternativeContactNumber, VehicleImagePath=result.VehicleImagePath });
+                    vehicleViewModel.Add(new VehicleViewModel() { Ownername = result.VehicleOwnerName, VehicleContactNumber = result.VehicleContactNumber, AlternativeContactNumber = result.AlternativeContactNumber, VehicleImagePath=result.VehicleImagePath,VehicleId=result.VehicleId });
                 }
 
             }
@@ -84,9 +83,15 @@ namespace GoGadiGo.Web.Controllers
           
             
             Status status;
+            string path = string.Empty;
             try
             {
-                string path = _accountRepo.UploadImage(userProfileViewModel.Image);
+                if (userProfileViewModel.Image != null)
+                {
+                     path = _accountRepo.UploadImage(userProfileViewModel.Image);
+                }
+               
+                
                 Profile profile = new Profile() { MobileNumber = userProfileViewModel.MobileNumber, Address = userProfileViewModel.Address, FirstName = userProfileViewModel.FirstName, LastName = userProfileViewModel.LastName, UserId = int.Parse(User.Identity.Name), Email = userProfileViewModel.Email, ProfileImagePath = path };
 
                 _accountRepo.UpdateProfile(profile);
@@ -118,13 +123,15 @@ namespace GoGadiGo.Web.Controllers
             try
             {
                var result= _accountRepo.UserProfile(int.Parse(User.Identity.Name));
-                userProfileViewModel.Address = result.Address;
-                userProfileViewModel.FirstName = result.FirstName;
-                userProfileViewModel.ImagePath = result.ProfileImagePath;
-                userProfileViewModel.MobileNumber = result.MobileNumber;
-                userProfileViewModel.LastName = result.LastName;
-                userProfileViewModel.Email = result.Email;
-
+                if (result != null)
+                {
+                    userProfileViewModel.Address = result.Address;
+                    userProfileViewModel.FirstName = result.FirstName;
+                    userProfileViewModel.ImagePath = result.ProfileImagePath;
+                    userProfileViewModel.MobileNumber = result.MobileNumber;
+                    userProfileViewModel.LastName = result.LastName;
+                    userProfileViewModel.Email = result.Email;
+                }
 
             }
             catch(Exception ex)

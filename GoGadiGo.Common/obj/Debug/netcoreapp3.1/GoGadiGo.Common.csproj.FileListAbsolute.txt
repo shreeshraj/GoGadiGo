@@ -7,3 +7,12 @@ C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.
 C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.csproj.CoreCompileInputs.cache
 C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.dll
 C:\Users\Team\Desktop\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.pdb
+C:\Users\shree\OneDrive\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\bin\Debug\netcoreapp3.1\GoGadiGo.Common.deps.json
+C:\Users\shree\OneDrive\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\bin\Debug\netcoreapp3.1\GoGadiGo.Common.dll
+C:\Users\shree\OneDrive\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\bin\Debug\netcoreapp3.1\GoGadiGo.Common.pdb
+C:\Users\shree\OneDrive\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.csprojAssemblyReference.cache
+C:\Users\shree\OneDrive\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.AssemblyInfoInputs.cache
+C:\Users\shree\OneDrive\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.AssemblyInfo.cs
+C:\Users\shree\OneDrive\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.csproj.CoreCompileInputs.cache
+C:\Users\shree\OneDrive\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.dll
+C:\Users\shree\OneDrive\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.pdb

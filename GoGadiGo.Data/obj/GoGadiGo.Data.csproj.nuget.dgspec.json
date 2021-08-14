@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Team\\Desktop\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {}
+    "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Team\\Desktop\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
+    "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Team\\Desktop\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
+        "projectUniqueName": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
         "projectName": "GoGadiGo.Data",
-        "projectPath": "C:\\Users\\Team\\Desktop\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
-        "packagesPath": "C:\\Users\\Team\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Team\\Desktop\\GoGadiGo\\GoGadiGo.Data\\obj\\",
+        "projectPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
+        "packagesPath": "C:\\Users\\shree\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Team\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

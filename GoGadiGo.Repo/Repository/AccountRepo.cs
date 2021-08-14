@@ -112,12 +112,26 @@ namespace GoGadiGo.Repo.Repository
             }
             else
             {
-                result.FirstName = profile.FirstName;
-                result.LastName = profile.LastName;
-                result.MobileNumber = profile.MobileNumber;
-                result.Email = profile.Email;
-                result.ProfileImagePath = profile.ProfileImagePath;
-                
+                if(profile.FirstName!="")
+                 result.FirstName= profile.FirstName;
+                if(profile.LastName!="")
+                    result.LastName = profile.LastName;
+                if(profile.MobileNumber!="")
+                    result.MobileNumber = profile.MobileNumber;
+                if(profile.Email!="")
+                    result.Email = profile.Email;
+                if(profile.ProfileImagePath!="")
+                    result.ProfileImagePath = profile.ProfileImagePath;
+                if (profile.Address != "")
+                    result.Address = profile.Address;
+
+
+
+
+
+
+
+
             }
             
         }

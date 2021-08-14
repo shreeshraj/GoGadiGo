@@ -91,7 +91,11 @@ namespace GoGadiGo.Web.Controllers
            
         }
 
-
+        [HttpPost]
+        public IActionResult EditVehicleDetail(int vehicleId)
+        {
+            return new JsonResult("");
+        }
         [HttpPost]
         public JsonResult  GetDistrictsName()
         {
