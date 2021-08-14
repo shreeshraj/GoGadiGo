@@ -130,6 +130,7 @@ namespace GoGadiGo.Web.Controllers
                     userProfileViewModel.ImagePath = result.ProfileImagePath;
                     userProfileViewModel.MobileNumber = result.MobileNumber;
                     userProfileViewModel.LastName = result.LastName;
+                   
                     userProfileViewModel.Email = result.Email;
                 }
 
