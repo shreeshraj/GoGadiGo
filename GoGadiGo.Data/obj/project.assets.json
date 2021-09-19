@@ -6347,11 +6347,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
+      "projectUniqueName": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
       "projectName": "GoGadiGo.Data",
-      "projectPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
+      "projectPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
       "packagesPath": "C:\\Users\\shree\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\obj\\",
+      "outputPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shree\\AppData\\Roaming\\NuGet\\NuGet.Config",

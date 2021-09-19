@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj": {}
+    "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
+    "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
+        "projectUniqueName": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
         "projectName": "GoGadiGo.Data",
-        "projectPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
+        "projectPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
         "packagesPath": "C:\\Users\\shree\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\obj\\",
+        "outputPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj": {
+    "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj",
+        "projectUniqueName": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj",
         "projectName": "GoGadiGo.Repo",
-        "projectPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj",
+        "projectPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj",
         "packagesPath": "C:\\Users\\shree\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\obj\\",
+        "outputPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
-                "projectPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj"
+              "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
+                "projectPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj"
               }
             }
           }

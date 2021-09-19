@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj": {}
+    "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj": {
+    "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
+        "projectUniqueName": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
         "projectName": "GoGadiGo.Common",
-        "projectPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
+        "projectPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
         "packagesPath": "C:\\Users\\shree\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shree\\OneDrive\\Desktop\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\obj\\",
+        "outputPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
