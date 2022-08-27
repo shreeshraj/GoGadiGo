@@ -58,3 +58,15 @@ F:\LearningLab\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Re
 F:\LearningLab\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.csproj.CopyComplete
 F:\LearningLab\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.dll
 F:\LearningLab\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.pdb
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Repo.deps.json
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Repo.dll
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Repo.pdb
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Data.dll
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Data.pdb
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.csprojAssemblyReference.cache
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.AssemblyInfoInputs.cache
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.AssemblyInfo.cs
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.csproj.CoreCompileInputs.cache
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.csproj.CopyComplete
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.dll
+E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.pdb

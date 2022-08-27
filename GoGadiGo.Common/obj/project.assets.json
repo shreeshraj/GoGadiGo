@@ -8,31 +8,28 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\shree\\.nuget\\packages\\": {}
+    "C:\\Users\\Kushal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
+      "projectUniqueName": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
       "projectName": "GoGadiGo.Common",
-      "projectPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
-      "packagesPath": "C:\\Users\\shree\\.nuget\\packages\\",
-      "outputPath": "F:\\LearningLab\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\obj\\",
+      "projectPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
+      "packagesPath": "C:\\Users\\Kushal\\.nuget\\packages\\",
+      "outputPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Kushal\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -44,7 +41,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -60,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

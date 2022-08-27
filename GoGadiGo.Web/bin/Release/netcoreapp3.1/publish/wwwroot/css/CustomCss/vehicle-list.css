@@ -1,0 +1,14 @@
+﻿body {
+    background: #eee;
+}
+
+span {
+    font-size: 15px;
+}
+
+.box-part {
+    background: #FFF;
+    border-radius: 0;
+    padding: 40px 10px;
+    margin: 5px 0px;
+}

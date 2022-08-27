@@ -144,11 +144,13 @@ function loadallVehicleList() {
                             '</div>'+
 
                             '<div class="text">'+
+                    '<span>' + 'Owner Name:- ' + value.vehicleOwnerName + '</span>' + "<br/>" + "<br/>" +
                     '<span>' + 'District Name:- ' + value.district + '</span>' + "<br/>" + "<br/>" +
                     '<span>' + 'Block Name:- ' + value.block + '</span>' + "<br/>" + "<br/>" +
-                    '<span>' + 'Vehicle Number:- ' + value.vehicleNumber + '</span>' + "<br/>" + "<br/>" +
+                    '<span>' + 'Vehicle Number:- ' + value.vehicleNumber.substring(0, 4) +'*****'+ '</span>' + "<br/>" + "<br/>" +
                     '<span>' + 'Vehicle Type:- ' + value.vehicleType + '</span>' + "<br/>" + "<br/>" +
                     '</div>' + "<br/>" +
+                    '<button type="button" class="btn btn-success"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">  </svg> Click Here To Call </button><br/>' +
                     '<span class="d-block p-2 bg-primary text-white">Mobile No:- ' + value.vehicleContactNumber + '</span><br/>' +
                     '<span class="d-block p-2 bg-success text-white">Alternate Mobile No:- ' + value.alternativeContactNumber + '</span>' +
                        '</div>'+

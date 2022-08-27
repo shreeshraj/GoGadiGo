@@ -8,7 +8,11 @@ namespace GoGadiGo.Web.Controllers
 {
     public class ServiceController : Controller
     {
-        public IActionResult Index()
+        public IActionResult PrivacyPolicy()
+        {
+            return View();
+        }
+        public IActionResult ContactUs()
         {
             return View();
         }
