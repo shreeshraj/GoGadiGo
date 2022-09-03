@@ -70,3 +70,15 @@ E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.csproj.Co
 E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.csproj.CopyComplete
 E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.dll
 E:\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.pdb
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Repo.deps.json
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Repo.dll
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Repo.pdb
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Data.dll
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\bin\Debug\netcoreapp3.1\GoGadiGo.Data.pdb
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.csprojAssemblyReference.cache
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.AssemblyInfoInputs.cache
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.AssemblyInfo.cs
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.csproj.CoreCompileInputs.cache
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.csproj.CopyComplete
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.dll
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Repo\obj\Debug\netcoreapp3.1\GoGadiGo.Repo.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\GoGadiGo.Web.csproj": {}
+    "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\GoGadiGo.Web.csproj": {}
   },
   "projects": {
-    "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj": {
+    "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
         "projectName": "GoGadiGo.Common",
-        "projectPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
+        "projectPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj",
         "packagesPath": "C:\\Users\\Kushal\\.nuget\\packages\\",
-        "outputPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\obj\\",
+        "outputPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kushal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,18 +50,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
+    "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
         "projectName": "GoGadiGo.Data",
-        "projectPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
+        "projectPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj",
         "packagesPath": "C:\\Users\\Kushal\\.nuget\\packages\\",
-        "outputPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\obj\\",
+        "outputPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kushal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -110,18 +110,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj": {
+    "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj",
+        "projectUniqueName": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj",
         "projectName": "GoGadiGo.Repo",
-        "projectPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj",
+        "projectPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj",
         "packagesPath": "C:\\Users\\Kushal\\.nuget\\packages\\",
-        "outputPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\obj\\",
+        "outputPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kushal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -135,8 +135,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
-                "projectPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj"
+              "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
+                "projectPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj"
               }
             }
           }
@@ -170,18 +170,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\GoGadiGo.Web.csproj": {
+    "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\GoGadiGo.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\GoGadiGo.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\GoGadiGo.Web.csproj",
         "projectName": "GoGadiGo.Web",
-        "projectPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\GoGadiGo.Web.csproj",
+        "projectPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\GoGadiGo.Web.csproj",
         "packagesPath": "C:\\Users\\Kushal\\.nuget\\packages\\",
-        "outputPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\obj\\",
+        "outputPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kushal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -195,14 +195,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj": {
-                "projectPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj"
+              "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj": {
+                "projectPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Common\\GoGadiGo.Common.csproj"
               },
-              "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
-                "projectPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj"
+              "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj": {
+                "projectPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Data\\GoGadiGo.Data.csproj"
               },
-              "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj": {
-                "projectPath": "E:\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj"
+              "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj": {
+                "projectPath": "C:\\Users\\Kushal\\Desktop\\GoGadi\\GoGadiGo\\GoGadiGo.Repo\\GoGadiGo.Repo.csproj"
               }
             }
           }
@@ -251,7 +251,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -34,3 +34,12 @@ E:\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.Assem
 E:\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.csproj.CoreCompileInputs.cache
 E:\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.dll
 E:\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.pdb
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\bin\Debug\netcoreapp3.1\GoGadiGo.Common.deps.json
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\bin\Debug\netcoreapp3.1\GoGadiGo.Common.dll
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\bin\Debug\netcoreapp3.1\GoGadiGo.Common.pdb
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.csprojAssemblyReference.cache
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.AssemblyInfoInputs.cache
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.AssemblyInfo.cs
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.csproj.CoreCompileInputs.cache
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.dll
+C:\Users\Kushal\Desktop\GoGadi\GoGadiGo\GoGadiGo.Common\obj\Debug\netcoreapp3.1\GoGadiGo.Common.pdb
